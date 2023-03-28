@@ -8,8 +8,12 @@
     "deploy",
     "cli"
   ],
+  "type": "module",
   "bin": {
     "mo-deploy": "bin/mo-deploy.js"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "license": "MIT",
   "dependencies": {
@@ -22,5 +26,10 @@
     "node-ssh": "^11.0.0",
     "ora": "^5.1.0",
     "prettier": "^2.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.3.0"
   }
 }
