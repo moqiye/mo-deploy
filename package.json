@@ -17,19 +17,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "archiver": "^5.0.2",
-    "chalk": "^4.1.0",
+    "archiver": "~5.0.2",
+    "chalk": "~4.1.0",
     "commander": "^6.1.0",
-    "dayjs": "^1.10.4",
-    "inquirer": "^7.3.3",
-    "minimist": "^1.2.5",
-    "node-ssh": "^11.0.0",
-    "ora": "^5.1.0",
-    "prettier": "^2.1.1"
-  },
-  "devDependencies": {
-    "@rollup/plugin-json": "^6.0.0",
-    "@rollup/plugin-terser": "^0.4.0",
-    "rollup": "^3.3.0"
+    "dayjs": "~1.10.4",
+    "inquirer": "~7.3.3",
+    "minimist": "~1.2.5",
+    "node-ssh": "~11.0.0",
+    "ora": "~5.1.0",
+    "prettier": "~2.1.1"
   }
 }
